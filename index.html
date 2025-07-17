@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/assets/img/tải xuống.png" type="image/x-icon" />
-
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- Phần nào ưu tiên hơn thì để nó ở dưới -->
+
     <link rel="stylesheet" href="./assets/icon/themify-icons/themify-icons.css">
     <title>THE BAND</title>
 </head>
@@ -20,7 +22,7 @@
                 <li><a href="#tour">Tour</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
-                    <a href="">
+                    <a href="#">
                         More
                         <i class="nav-arrow-down ti-angle-down"></i>
                     </a>
@@ -36,6 +38,9 @@
             <!-- Begin search -->   
             <div class="search-btn">
                 <i class="search-icon ti-search"></i>
+            </div>
+            <div id="menu-mobile" class="menu-mobile-btn">
+                <i class="menu-icon ti-menu"></i>
             </div>
             <!-- End search -->   
         </div>
@@ -59,15 +64,15 @@
                 <p class="section-sub-heading">We love music</p>
                 <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <div class="row member-list">
-                    <div class="col col3 text-center">
+                    <div class="col col3 s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="/assets/img/bandmember.jpg" alt="" class="member-ig">
                     </div>
-                    <div class="col col3 text-center">
+                    <div class="col col3 s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="/assets/img/bandmember.jpg" alt="" class="member-ig">
                     </div>
-                    <div class="col col3 text-center">
+                    <div class="col col3 s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="/assets/img/bandmember.jpg" alt="" class="member-ig">
                     </div>
@@ -89,7 +94,7 @@
 
                     <!-- Place -->
                     <div class="row place-lists">
-                        <div class="col col3">
+                        <div class="col col3 s-col-full mt-16 ">
                             <img src="/assets/img/newyork (1).jpg" alt="" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
@@ -97,10 +102,10 @@
                                     <span class="date">December 1, 2023</span>
                                 </p>
                                 <p class="place-description"> Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                                <button class="btn s-full-with js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col col3">
+                        <div class="col col3 s-col-full mt-16">
                             <img src="/assets/img/paris.jpg" alt="" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
@@ -108,10 +113,10 @@
                                     <span class="date">Sat 28 Nov 2016</span>
                                 </p>
                                 <p class="place-description"> Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                                <button class="btn s-full-with js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col col3">
+                        <div class="col col3 s-col-full mt-16">
                             <img src="/assets/img/sanfran.jpg" alt="" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
@@ -119,7 +124,7 @@
                                     <span class="date">Sun 29 Nov 2016</span>
                                 </p>
                                 <p class="place-description"> Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                                <button class="btn s-full-with js-buy-ticket">Buy Tickets</button>
                             </div>
                         </div>
                     </div>
@@ -133,18 +138,18 @@
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="section-sub-heading">Fan? Drop a note!</p>
                 <div class="row contact-content">
-                    <div class="col col2 contact-info">
+                    <div class="col col2 s-col-full contact-info">
                         <p><i class="ti-location-pin"></i> Chicago, US</p>
-                        <p><i class="ti-mobile"></i>  Phone: +00 151515</p>
-                        <p><i class="ti-email"></i>  Email: mail@mail.com</p>
+                        <p><i class="ti-mobile"></i>  Phone: <a href="tel:+00 151515">+00 151515</a></p>
+                        <p><i class="ti-email"></i>  Email: <a href="mailto:mail@mail.com">mail@mail.com</a></p>
                     </div>  
-                    <div class="col col2 contact-form">
+                    <div class="col col2 s-col-full contact-form">
                         <form action="">
                             <div class="row">
-                                <div class="col col2">
+                                <div class="col col2 s-col-full s-mt-16">
                                     <input type="text" name="" required="" class="form-control" placeholder="Name">
                                 </div>
-                                <div class="col col2">
+                                <div class="col col2 s-col-full s-mt-8">
                                     <input type="email" name="" required="" class="form-control" placeholder="Email">
                                 </div>
                             </div>
@@ -153,7 +158,7 @@
                                     <input type="text" name="" required="" class="form-control" placeholder="Message">
                                 </div>
                             </div>
-                            <input type="submit" value="SEND" class="btn mt-16 pull-right ">
+                            <input type="submit" value="SEND" class="btn mt-16 pull-right s-full-with">
                         </form>
                     </div>
                 </div>
@@ -256,7 +261,44 @@
 
     </script>
 
+    <script>
+        var header = document.getElementById("header");
+        var mobileMenu = document.getElementById("menu-mobile");
+        var headerHeight = header.clientHeight;
 
+        // Đóng mở mobile menu
+        mobileMenu.onclick = function() {
+            var isClosed = header.clientHeight === headerHeight;
+            if (isClosed) {
+                header.style.height = "auto";
+            } else {
+                header.style.height = null; // null, không phải "null"
+            }
+        };
+        //Tự động đóng mobile menu khi click vào một mục trong menu
+        var menuItems = document.querySelectorAll("#nav li a[href*='#']");
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+            
+            menuItem.onclick = function(event){
+
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+
+                if (!isParentMenu){
+                    header.style.height = null;
+                }
+                else{
+                    event.preventDefault();
+                }
+            }
+        }
+</script>
 
 </body>
 </html>
+
+<!-- 
+//     PC: 1024px
+//     tablet: >= 740 & <1024px
+//     mobile: < 740px 
+// -->
